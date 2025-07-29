@@ -10,7 +10,7 @@ fi
 filesdir="$1"
 searchstr="$2"
 
-# Check if filesdir is a directory
+# Check if filesdir is a  valid directory
 if [ ! -d "$filesdir" ]; then
     echo "Error: Directory '$filesdir' does not exist"
     exit 1
